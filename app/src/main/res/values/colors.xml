@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- Theme Black-->
+    <color name="theme_black_main_color">#1D1D1D</color>
+    <color name="theme_black_main_color_darker">#000000</color>
+
+    <color name="bg_color">#b74964</color>
+
+    <!-- #b4a0b0 #dba4b2 -->
+    <color name="divider_color">#dba4b2</color>
+    <color name="footer_focused_txt">#f08c6d</color>
+
+    <color name="chart_color">#d07766</color>
+    <color name="white">#FFFFFF</color>
+
+</resources>

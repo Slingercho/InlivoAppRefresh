@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.github.lzyzsd.circleprogress.DonutProgress
+        android:layout_marginTop="25dp"
+        android:id="@+id/donut_progress"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/chartName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/vitamins"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/donut_progress"/>
+
+    <com.github.mikephil.charting.charts.BarChart
+        android:id="@+id/statsVitaminChart"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/chartName" />
+</RelativeLayout>
